@@ -36,11 +36,11 @@ Algoritmo Matriz_ventas
 	Mientras fila<=7
 		suma=0
 		vendedor=ventas(fila,1)
-		Mientras fila<=7 y vendedor==ventas(fila,1)
+		Mientras fila<=7 y vendedor=ventas(fila,1)
 			suma=suma+ventas(fila,4)
 			fila=fila+1
 		FinMientras
-		Imprimir "vendedor " vendedor "vendió " suma
+		Imprimir "vendedor " vendedor " vendió " suma
 	FinMientras
 			
 FinAlgoritmo
