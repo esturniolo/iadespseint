@@ -3,7 +3,7 @@ m = [[(None) for columnas in range(3)] for filas in range(2)]
 for f in range(2):
     for c in range(3):
         if c==0:
-            m[f][c]  = str(input("Ingrese nombre "))
+            m[f][c] = str(input("Ingrese nombre "))
         else:
             m[f][c] = int(input("Ingresar valor "))
 
